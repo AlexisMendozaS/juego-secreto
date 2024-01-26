@@ -41,7 +41,7 @@ function generarNumeroSecreto() {
             return generarNumeroSecreto();
         }else {
             listaNumerosSorteados.push(numeroGenerado);
-            return;
+            return numeroGenerado;
         }
     }
 }
